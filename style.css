@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(12, 12, 12);
+}
+
+header .nav {
+  height: 60px;
+  width: 100%;
+  opacity: 90%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 200px;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  display: inline;
+  padding: 10px;
+}
+
+header img {
+  display: flex;
+  position: relative;
+  width: 130px;
+  top: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: red;
+  font-size: 17px;
+}
+
+header input {
+  border-radius: 8px;
+  width: 200px;
+  height: 30px;
+  padding: 0px 10px 0 35px;
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+header input::placeholder {
+  color: #fff;
+}
+
+.seach {
+  color: #fff;
+  position: absolute;
+  top: 22px;
+  left: 1133px;
+  border-right: 1px solid #fff;
+  padding-right: 5px;
+}
+
+/* banner */
+
+.banner {
+  background-image: url('imagens/foto\ 2.jpg');
+  height: 550px;
+  background-size: 1540px;
+  background-position: center;
+}
+
+.infoe {
+  position: relative;
+  top: 190px;
+  left: 13%;
+  width: 400px;
+}
+
+.infoe h1 {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.infoe p {
+  color: rgb(128, 127, 127);
+  position: relative;
+  left: -5px;
+  top: -0px;
+}
+
+.infoe button {
+  border-radius: 50px;
+  padding: 8px;
+  width: 130px;
+  background-color: red;
+  border: 0px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.infod {
+  position: relative;
+  left: 1300px;
+  top: 212px;
+  background-color: red;
+  width: 150px;
+  height: 80px;
+  padding: 20px;
+}
+
+.infod .tell {
+  font-size: 50px;
+  position: relative;
+  width: 80px;
+  height: 50px;
+  bottom: 5px;
+  right: 27px;
+  color: #fff;
+}
+
+.infod .tell2 {
+  color: #fff;
+  position: absolute;
+  left: 63.8px;
+  bottom: 0.2px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(218, 10, 10);
+  height: 80px;
+  padding-left: 10px;
+  width: 155px;
+  font-size: 14px;
+}
+
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 550px;
+  background: linear-gradient(to top, #000, transparent);
+}
+
+.red {
+  color: red;
+}
+
+/*Abaixo do Banner*/
+
+.bannerem {
+  color: #fff;
+  width: 80%;
+  height: 300px;
+  position: absolute;
+  left: 150px;
+  top: 700px;
+}
+
+.bannerem h2 {
+  text-align: center;
+}
+
+.bannerem p {
+  text-align: center;
+  font-size: 13px;
+  color: rgb(117, 117, 117);
+  width: 500px;
+  position: relative;
+  left: 29%;
+}
+
+.bannerem button {
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px;
+  width: 110px;
+  position: relative;
+  left: 45%;
+  cursor: pointer;
+}
+
+/*Abaixo do Carrosel*/
+
+.emcarrossel {
+  position: relative;
+  top: 400px;
+  background-color: #fff;
+  width: 000px;
+  height: 400px;
+}
+
+.emcarrossel img {
+  height: 400px;
+  position: relative;
+  left: 90px;
+}
+
+.emcarrosseld {
+  position: relative;
+  left: 737px;
+  bottom: 406px;
+  width: 700px;
+  height: 400px;
+  background-color: #fff;
+}
+
+.emcarrosseld h2,
+p {
+  position: relative;
+  left: 50px;
+  width: 400px;
+  top: 30px;
+  padding: 10px;
+}
+.emcarrosseld p {
+  font-size: 13px;
+  color: gray;
+}
+
+.emcarrosseld ul {
+  font-size: 11px;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  color: gray;
+}
+
+.emcarrosseld li {
+  list-style-type: none;
+  position: relative;
+}
+
+.emcarrosseld li::before {
+  content: '•';
+  display: inline-block;
+  position: absolute;
+  left: -1em;
+  color: red;
+}
+
+.emcarrosseld button {
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+  padding: 5px;
+  width: 125px;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  cursor: pointer;
+}
+
+.gradientred {
+  background: linear-gradient(to right, red, red);
+  width: 650px;
+  height: 400px;
+  position: absolute;
+  top: 0px;
+  left: 90px;
+  opacity: 50%;
+}
+
+/*em cima do rodape*/
+
+.rodem {
+  position: relative;
+  top: 420px;
+  height: 400px;
+}
+
+.rodem h2 {
+  color: #fff;
+  position: relative;
+  left: 300px;
+  width: 200px;
+}
+
+.rodem p {
+  color: gray;
+  position: relative;
+  left: 289px;
+}
+
+.form {
+  position: relative;
+  left: 800px;
+  bottom: 350px;
+  width: 600px;
+}
+
+.form h3 {
+  color: gray;
+}
+
+.form input {
+  border-radius: 50px;
+  padding: 10px;
+  border: 2px solid gray;
+  background-color: transparent;
+  color: gray;
+}
+
+.form .textarea {
+  border-radius: 50px;
+  height: 150px;
+  width: 570px;
+  border: 2px solid gray;
+  background-color: transparent;
+  color: gray;
+}
+
+.form .textarea::placeholder {
+  position: relative;
+  bottom: 40px;
+  left: 20px;
+}
+
+.form button {
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+  padding: 5px;
+  width: 125px;
+  position: relative;
+  top: 50px;
+  left: 10px;
+  cursor: pointer;
+}
+
+/*rodape*/
+
+footer {
+  position: relative;
+  top: 450px;
+  background-color: #fff;
+  height: 80px;
+}
+
+footer p {
+  color: #000;
+  position: relative;
+  bottom: 80px;
+  left: 45%;
+}
